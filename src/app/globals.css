@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../../public/fonts/Aeonik-/Aeonik-Air.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PolySans';
+  src: url('../../public/fonts/PolySans\ Median/PolySans Median.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Aeonik', sans-serif;
+}
+
+.font-poly {
+  font-family: 'PolySans', sans-serif;
+}
